@@ -18,77 +18,60 @@
   <body class="body">
     <!-- NAV -->
 
-    <!-- <nav id="nav">
-      <img
-        class="container__home container__home-img-haribo"
-        src="images/logo.png"
-        alt=""
-      />
-      <a class="container__home container__home-btn-user" href="#"
-        ><i class="bx bxs-user"></i
-      ></a>
-    </nav> -->
+    <section class="container__home">
+      <nav class="container__home-nav">
+        <img class="home-img" src="images/logo.png" alt="" />
+        <a class="home-btn__user" href="#"><i class="bx bxs-user"></i></a>
+      </nav>
+      <header class="container__home-header">
+        <h1 class="home-header__title">
+          Le paradis sucré: votre destination
+          <span class="home-header__gourmand">Gourmande</span>
 
-    <main class="container">
-      <!-- SECTION HOME -->
-
-      <section class="container__home">
-        <nav class="container__home-nav">
-          <img
-            class="container__home container__home-img-haribo"
-            src="images/logo.png"
-            alt=""
-          />
-          <a class="container__home container__home-btn-user" href="#"
-            ><i class="bx bxs-user"></i
-          ></a>
-        </nav>
-        <header class="container__home container__home-header">
-          <h1>
-            Le paradis sucré: votre destination
-            <span class=".container__home.container__home-header--red"
-              >Gourmande</span
-            >
-          </h1>
-          <p>
-            Plonges dans un univers sucré et découvrez une sélection exquise de
-            bonbons pour satisfaire toutes vos envies gourmandes !
+          <!-- <p class="home-header__p"> -->
+          <span class="home-header__sub-title"
+            >longez dans un univers sucré et découvrez une sélection exquise de
+            bonbons pour satisfaire toutes vos envies gourmandes !</span
+          >
+          <a href="#" id="home-header__btn"
+            ><i class="bx bx-cart-alt"> Commander</i></a
+          >
+        </h1>
+      </header>
+    </section>
+    <!-- SECTION HOME END -->
+    <!-- SECTION ARTICLES -->
+    <main class="main">
+      <section class="container__services">
+        <header class="services-title">
+          <p class="services-title__p">
+            Satisfaire toutes vos envies gourmandes
           </p>
-          <a href="#" class="btn"><i class="bx bx-cart-alt"></i> Commander</a>
+          <h2 class="services-title__h">Services</h2>
         </header>
-      </section>
-
-      <!-- SECTION HOME END -->
-
-      <!-- SECTION ARTICLES -->
-      <section class="container__services--bg">
-        <header class="container__services container__services-title">
-          <p>Satisfaire toutes vos envies gourmandes</p>
-          <h2>Services</h2>
-        </header>
-        <article class="container__services container__services-articles">
-          <article class="btn-services">
+        <article class="container__services-articles">
+          <article class="btn__services">
             <i class="bx bxs-package"></i>
-            <h3>Livraison gratuite</h3>
-            <p>
+            <h3 class="btn__services-title">Livraison gratuite</h3>
+            <p class="btn__services-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
               et suscipit voluptates commodi itaque.
             </p>
           </article>
 
-          <article class="btn-services">
+          <article class="btn__services">
             <i class="bx bx-support"></i>
-            <h3>Support 24/7</h3>
-            <p>
+            <h3 class="btn__services-title">Support 24/7</h3>
+            <p class="btn__services-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
               et suscipit voluptates commodi itaque.
             </p>
           </article>
 
-          <article class="btn-services">
+          <article class="btn__services">
             <i class="bx bxs-credit-card-alt"></i>
-            <h3>Satisfait/Remboursé</h3>
-            <p>
+            <h3 class="btn__services-title">Satisfait/Remboursé</h3>
+            <p class="btn__services-p">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
               et suscipit voluptates commodi itaque.
             </p>
@@ -97,40 +80,102 @@
       </section>
       <!-- SECTION ARTICLES END -->
       <!-- SECTION PRODUITS -->
-      <section class="container__produits--bg">
-        <header class="container__produits container__produits-title">
-          <p>Des douceurs pour égayer chaque instant de votre journée</p>
-          <h2>Nos produits</h2>
+      <section class="container__produits">
+        <header class="produits__title">
+          <p class="produits__title-p">
+            Des douceurs pour égayer chaque instant de votre journée
+          </p>
+          <h2 class="produits__title-h">Nos produits</h2>
         </header>
-        <div class="container__produits container__produits-articles">
-          <article class="container__produits container__produits-populaires">
-            <h3
-              class="container__produits container__produits-populaires-title"
-            >
-              Les plus populaires
-            </h3>
+        <div class="container__produits-articles">
+          <article class="container__produits-populaires">
+            <h3 class="produits-populaires-title">Les plus populaires</h3>
             <article class="produits-populaires">
-              <img src="images/p-1.png" alt="" />
+              <img
+                class="produits-populaires__img"
+                src="images/p-1.png"
+                alt=""
+              />
               <h4 class="produits-populaires-title"></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="produits-populaires__p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
             </article>
             <article class="produits-populaires">
-              <img src="images/p-2.png" alt="" />
+              <img
+                class="produits-populaires__img"
+                src="images/p-2.png"
+                alt=""
+              />
               <h4 class="produits-populaires-title"></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="produits-populaires__p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
             </article>
             <article class="produits-populaires">
-              <img src="images/p-3.png" alt="" />
+              <img
+                class="produits-populaires__img"
+                src="images/p-3.png"
+                alt=""
+              />
               <h4 class="produits-populaires-title"></h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p class="produits-populaires__p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
             </article>
           </article>
-          <img class="produits-populaires-img" src="images/about.jpg" />
+          <img class="produits-populaires__truck" src="images/about.jpg" />
         </div>
       </section>
       <!-- SECTION PRODUITS END -->
+      <!-- SECTION FORMULAIRE -->
+      <section class="container__formulaires">
+        <header class="formulaires-title">
+          <p class="formulaires-title__p">Restons en contact</p>
+          <h2 class="formulaires-title__h">Nous contacter</h2>
+        </header>
+        <form class="form" action="">
+          <label class="label" for="name"></label>
+          <input
+            id="name"
+            value="Indiquez votre nom"
+            name="name"
+            type="text"
+            class="input__name"
+            placeholder="Indiquez votre nom"
+          />
+          <label class="label" for="firstname"></label>
+          <input
+            id="firstname"
+            value="Indiquez votre prénom"
+            name="firstname"
+            type="text"
+            class="input__firstname"
+            placeholder="Indiquez votre prénom"
+          />
+          <label class="label" for="email"></label>
+          <input
+            id="email"
+            value="Indiquez votre email"
+            name="email"
+            type="email"
+            class="input__mail"
+            placeholder="Indiquez votre email"
+          />
+          <label class="label" for="message"></label>
+          <textarea
+            id="message"
+            name="message"
+            type="text"
+            class="input__textarea"
+            placeholder="message"
+            rows="4"
+          ></textarea>
+        </form>
+      </section>
+      <!-- SECTION FORMULAIRE END -->
     </main>
-    <footer>
+    <footer class="footer">
       <p>&copy; La Minute De Code - Tous droits réservés - 2023</p>
     </footer>
   </body>

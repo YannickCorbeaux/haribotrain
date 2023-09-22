@@ -6,71 +6,84 @@
 
 .container__home {
   background-color: #ffc53d;
-  padding: 0.5rem 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.container__home-header {
-  display: flex;
-  justify-content: space-around;
-}
-
-.container__home-header > h1 {
-  font-weight: bold;
-  font-size: 2rem;
+  /* display: flex; */
 }
 
 .container__home-nav {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 6rem;
 }
 
-.container__home.container__home-img-haribo {
+.home-img {
   width: 3.5rem;
 }
 
-.bx.bxs-user {
-  background-color: #4f0202;
-  font-size: 1.5rem;
-  color: whitesmoke;
-  border-radius: 2rem;
-  padding: 0.5rem;
-  display: flex;
-  align-self: self-end;
-  margin-right: 5rem;
-}
-
-.container__home.container__home-header {
-  border: #4f0202 solid 5px;
+.home-btn__user {
+  background-color: #a90202;
+  color: white;
   box-sizing: border-box;
-  width: 25%;
+  border-radius: 20px;
+  padding: 0.5rem;
+  width: 40px;
+  height: 40px;
+}
+
+.bx.bxs-user {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container__home-header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-left: 6rem;
+  width: 45%;
+  height: 45rem;
+}
+
+.home-header__title {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 50%;
-  margin: 10rem 5rem;
-  padding: 3rem;
-  text-align: left;
-  line-height: 3rem;
-  display: grid;
-  
+  width: 45%;
+  font-size: clamp(25px, 4vw, 40px);
+  font-weight: bold;
+  line-height: 60px;
+}
+.home-header__gourmand {
+  color: #a90202;
 }
 
-.container__home.container__home-header > h1,
-p {
-  font-size: 150%;
+.home-header__sub-title {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-weight: normal;
 }
 
-span {
-  color: red;
-  margin-top: 1.5rem;
-}
-
-.container__home.container__home-header > p {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
+#home-header__btn {
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: normal;
+  background-color: #a90202;
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  text-decoration: none;
 }
 
 .btn-services {
   cursor: pointer;
+}
+
+.footer {
+  background-color: #ffc53d;
 }
