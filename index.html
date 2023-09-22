@@ -15,10 +15,10 @@
     />
     <title>Haribo</title>
   </head>
-  <body>
+  <body class="body">
     <!-- NAV -->
 
-    <nav id="nav">
+    <!-- <nav id="nav">
       <img
         class="container__home container__home-img-haribo"
         src="images/logo.png"
@@ -27,67 +27,111 @@
       <a class="container__home container__home-btn-user" href="#"
         ><i class="bx bxs-user"></i
       ></a>
-    </nav>
-    <!-- NAV -->
-    <!-- SECTION HOME -->
-    <section class="container__home">
-      <header class="container__home container__home-header">
-        <h1>Le paradis sucré: votre destination <span>Gourmande</span></h1>
-        <p>
-          Plonges dans un univers sucré et découvrez une sélection exquise de
-          bonbons pour satisfaire toutes vos envies gourmandes !
-        </p>
-        <a href="#" class="btn"><i class="bx bx-cart-alt"></i> Commander</a>
-      </header>
-    </section>
-    <!-- SECTION HOME END -->
+    </nav> -->
 
-    <!-- SECTION ARTICLES -->
-    <section class="container__services">
-      <header class="container__services container__services-title">
-        <p>Satisfaire toutes vos envies gourmandes</p>
-        <h2>Services</h2>
-      </header>
-      <article class="container__services container__services-articles">
-        <article class="btn-services">
-          <i class="bx bxs-package"></i>
-          <h3>Livraison gratuite</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
-            et suscipit voluptates commodi itaque.
-          </p>
-        </article>
+    <main class="container">
+      <!-- SECTION HOME -->
 
-        <article class="btn-services">
-          <i class="bx bx-support"></i>
-          <h3>Support 24/7</h3>
+      <section class="container__home">
+        <nav class="container__home-nav">
+          <img
+            class="container__home container__home-img-haribo"
+            src="images/logo.png"
+            alt=""
+          />
+          <a class="container__home container__home-btn-user" href="#"
+            ><i class="bx bxs-user"></i
+          ></a>
+        </nav>
+        <header class="container__home container__home-header">
+          <h1>
+            Le paradis sucré: votre destination
+            <span class=".container__home.container__home-header--red"
+              >Gourmande</span
+            >
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
-            et suscipit voluptates commodi itaque.
+            Plonges dans un univers sucré et découvrez une sélection exquise de
+            bonbons pour satisfaire toutes vos envies gourmandes !
           </p>
-        </article>
+          <a href="#" class="btn"><i class="bx bx-cart-alt"></i> Commander</a>
+        </header>
+      </section>
 
-        <article class="btn-services">
-          <i class="bx bxs-credit-card-alt"></i>
-          <h3>Satisfait/Remboursé</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
-            et suscipit voluptates commodi itaque.
-          </p>
+      <!-- SECTION HOME END -->
+
+      <!-- SECTION ARTICLES -->
+      <section class="container__services--bg">
+        <header class="container__services container__services-title">
+          <p>Satisfaire toutes vos envies gourmandes</p>
+          <h2>Services</h2>
+        </header>
+        <article class="container__services container__services-articles">
+          <article class="btn-services">
+            <i class="bx bxs-package"></i>
+            <h3>Livraison gratuite</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
+              et suscipit voluptates commodi itaque.
+            </p>
+          </article>
+
+          <article class="btn-services">
+            <i class="bx bx-support"></i>
+            <h3>Support 24/7</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
+              et suscipit voluptates commodi itaque.
+            </p>
+          </article>
+
+          <article class="btn-services">
+            <i class="bx bxs-credit-card-alt"></i>
+            <h3>Satisfait/Remboursé</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod
+              et suscipit voluptates commodi itaque.
+            </p>
+          </article>
         </article>
-      </article>
-    </section>
-    <!-- SECTION ARTICLES END -->
-    <!-- SECTION CONTACT -->
-    <section class="container__produits">
-      <header class="container__produits container__produits-title">
-        <p>Des douceurs pour égayer chaque instant de votre journée</p>
-        <h2>Nos produits</h2>
-      </header>
-      <article
-        class="container__produits container__produits-articles"
-      ></article>
-    </section>
-    <!-- SECTION CONTACT END -->
+      </section>
+      <!-- SECTION ARTICLES END -->
+      <!-- SECTION PRODUITS -->
+      <section class="container__produits--bg">
+        <header class="container__produits container__produits-title">
+          <p>Des douceurs pour égayer chaque instant de votre journée</p>
+          <h2>Nos produits</h2>
+        </header>
+        <div class="container__produits container__produits-articles">
+          <article class="container__produits container__produits-populaires">
+            <h3
+              class="container__produits container__produits-populaires-title"
+            >
+              Les plus populaires
+            </h3>
+            <article class="produits-populaires">
+              <img src="images/p-1.png" alt="" />
+              <h4 class="produits-populaires-title"></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article class="produits-populaires">
+              <img src="images/p-2.png" alt="" />
+              <h4 class="produits-populaires-title"></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+            <article class="produits-populaires">
+              <img src="images/p-3.png" alt="" />
+              <h4 class="produits-populaires-title"></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+          </article>
+          <img class="produits-populaires-img" src="images/about.jpg" />
+        </div>
+      </section>
+      <!-- SECTION PRODUITS END -->
+    </main>
+    <footer>
+      <p>&copy; La Minute De Code - Tous droits réservés - 2023</p>
+    </footer>
   </body>
 </html>
