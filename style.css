@@ -6,6 +6,8 @@
 
 .container__home {
   background-color: #ffc53d;
+  height: 130vh;
+  z-index: 2;
   /* display: flex; */
 }
 
@@ -43,6 +45,8 @@
   margin-left: 6rem;
   width: 45%;
   height: 45rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .home-header__title {
@@ -51,7 +55,7 @@
   flex-direction: column;
   justify-content: center;
   height: 50%;
-  width: 45%;
+  width: 70%;
   font-size: clamp(25px, 4vw, 40px);
   font-weight: bold;
   line-height: 60px;
@@ -64,6 +68,7 @@
   font-size: 1rem;
   line-height: 1.7rem;
   font-weight: normal;
+  padding-right: 7rem;
 }
 
 #home-header__btn {
@@ -76,12 +81,70 @@
   color: white;
   text-align: center;
   width: 150px;
-  height: 50px;
+  height: 2rem;
   text-decoration: none;
 }
 
-.btn-services {
+.home-header__img--z-index {
+  z-index: 1;
+  width: 65vh;
+  display: flex;
+}
+
+.home-header__img--z-index img {
+  width: 100%;
+}
+
+.container__services-articles--center {
+  display: flex;
+  justify-content: center;
+}
+
+.container__services-articles--flex {
+  margin: 2rem 15rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* titres artricles */
+.services-title {
+  text-align: center;
+  margin-top: 5rem;
+}
+header > h2 {
+  color: #a90202;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* titres articles */
+
+.btn__livraison,
+.btn__support,
+.btn__satisfy {
   cursor: pointer;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 2px 30px 8px rgba(41, 41, 41, 0.13);
+  width: 15rem;
+  height: 15rem;
+  margin: 1.5rem;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.bx.bxs-package,
+.bx.bx-support,
+.bx.bxs-credit-card-alt {
+  font-size: 2rem;
+  color: #a90202;
+}
+
+article > h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .footer {
